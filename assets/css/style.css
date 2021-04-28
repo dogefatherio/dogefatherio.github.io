@@ -266,7 +266,7 @@ body {
     left: 15px;
     padding: 10px 0;
     border-radius: 8px;
-    background-color: #1b1b1b;
+    background-color: #fff;
     overflow-y: auto;
     transition: 0.3s;
   }
@@ -675,7 +675,9 @@ body {
   .counts .content .count-box a:hover {
     color: #6f6f6f;
   }
-  
+  .navbar-mobile h4{
+    display: none;
+  }
   @media (max-width: 1024px) {
     .counts .image {
       text-align: center;
