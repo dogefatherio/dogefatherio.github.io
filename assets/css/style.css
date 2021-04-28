@@ -675,7 +675,7 @@ body {
   .counts .content .count-box a:hover {
     color: #6f6f6f;
   }
-  .navbar-mobile h4{
+  .navbar-mobile .header-doge-logo{
     display: none;
   }
   @media (max-width: 1024px) {
