@@ -410,6 +410,7 @@ body {
     }
     #hero .hero-img {
       text-align: center;
+      padding: 20px;
     }
     #hero .hero-img img {
       width: 50%;
@@ -431,6 +432,9 @@ body {
     }
     #hero .hero-img img {
       width: 70%;
+    }
+    #elon-img {
+      max-width: 42vh !important;
     }
   }
   
