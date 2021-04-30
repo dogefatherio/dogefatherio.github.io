@@ -12,6 +12,12 @@ body {
     font-family: "Open Sans", sans-serif;
     color: #fff;
     font-weight: 400;
+    margin-bottom: 64px;
+  }
+  @media (min-width: 768px) {
+    body {
+      margin-bottom: 0;
+    }    
   }
   
   a {
@@ -20,7 +26,7 @@ body {
   }
   
   a:hover {
-    color: #ff96f2;
+    color: #a57f25;
     text-decoration: none;
   }
   
@@ -52,7 +58,7 @@ body {
   }
   
   .back-to-top:hover {
-    background: #ff96f2;
+    background: #a57f25;
     color: #fff;
   }
   
@@ -349,7 +355,7 @@ body {
   #hero {
     width: 100%;
     height: 88vh;
-    margin-top: 65px;
+    margin-top: 75px;
   }
   
   #token-img {
@@ -360,7 +366,7 @@ body {
   }
   
   #hero h1 {
-    margin: 45px auto;
+    margin: 35px auto;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
@@ -398,6 +404,10 @@ body {
     #hero {
       background-attachment: fixed;
     }
+    #hero {
+      height: 82vh;
+      margin-top: 150px;
+    }
   }
   
   @media (max-width: 991px) {
@@ -410,10 +420,9 @@ body {
     }
     #hero .hero-img {
       text-align: center;
-      padding: 20px;
     }
     #hero .hero-img img {
-      width: 50%;
+      max-width: 90%;
     }
   }
   
@@ -433,14 +442,18 @@ body {
     #hero .hero-img img {
       width: 70%;
     }
+    #token-img {
+      margin: 0 auto!important;
+      margin-top: 65px !important;
+    }    
     #elon-img {
-      max-width: 42vh !important;
+      width: 42vh !important;
     }
   }
   
   @media (max-width: 575px) {
     #hero .hero-img img {
-      width: 80%;
+      width: 100%;
     }
   }
   
@@ -512,6 +525,9 @@ body {
   @media (min-width: 768px) {
     .section-title h2 {
       font-size: 32px;
+    }
+    .mobile-buy-bar {
+      display: none !important;
     }
   }
   .fa-dollar-sign {
